@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+
+.side-bar{
+    max-width: 290px;
+    height: 1152px;
+    background: linear-gradient(149.96deg, #301F81 12.51%, #0F0441 89.53%);
+
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFFFFFB2;
+  }
+}
+.logo{
+       width: 241px;
+       height: 68px;
+       position: absolute;
+       top: 29px;
+       left: 29px;
+    color: #FFFFFF;
+    h5{
+        font-weight: 700;
+        font-size: 23px;
+    }
+    h6{
+        font-weight: 300;
+        font-size: 23px;
+    }
+}
+.pages{
+    width: 255.36px;
+    height: 228px;
+    position: absolute;
+    top: 161px ;
+    left: 15px;
+    line-height: 50px;
+    
+}
+.end{
+    width: 290px;
+    height:50px ;
+    position: absolute;
+    top: 1074px;
+    left: 29px;
+   align-items: center;
+    p{
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+.pages :hover{
+    color: white;
+    background-color:#FFFFFF21;
+    border-radius: 15px;
+    padding: 10px;
+}
+.row.flex-nowrap{
+     width: 1640px;
+}
+.main_page{
+    max-width: 1630px;
+    border-width: 0px, 0px, 0px, 0px;
+
+border-style: solid;
+background-color: #F4F7FE;
+border-color: #0000002B;
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.mics{
+    position: relative;
+    display: inline-block;
+    box-shadow: 14px 17px 40px 4px #7090B014;
+    border-radius:30px ;
+    width: 346px;
+    height: 61.51px;
+  }
+  
+  .form-control {
+    padding-left: 30px; /* Add space for the icon */
+    width: 214px; /* Adjust width as needed */
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    border-radius: 49px;
+    box-shadow: none;
+    margin: 10px;
+  }
+  .search-icon {
+    position: absolute;
+    left: 18px;  /* Position the icon inside the input */
+    top: 51%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+  }
+  .material-symbols-outlined.noti{
+    position: absolute;
+    left: 245px;
+    top: 19px;
+    color: #A3AED0;
+  }
+  .elipse{
+    position: absolute;
+    left: 285px;
+    top: 9px;
+    border-radius: 100px;
+  }
+  .fill{
+    width:1610px;
+    top: 102px;
+    left: 290px;
+    position: absolute;
+    height:955px;
+    gap: 20px;
+  }
+  .frame{
+    width: 1610px;
+    height: 869px;
+    padding-left: 20px;
+    padding-right:20px;
+    gap: 20px;
+  }
+  .Large_Complex.Table{
+        width: 1590px;
+        height: 869px;
+        border-radius:20px;
+        background-color: #FFFFFF;
+  }
+  .Table.Head{
+    width:1530px;
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 61px;
+    /* border: 1px solid #DDDDDD */
+  }
+  .btn.btn-secondary.dropdown-toggle{
+    width: 70px;
+    height: 42px;
+    position: absolute;
+    top: 3px;
+    left: 160px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    border: 1px solid #DDDDDD;
+    
+  }
+  .title p{
+    
+      /* width: 34px; */
+      height: 19px;
+      position: absolute;
+      top: 7px;
+      left: 230px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #333333;
+  }
+  .button{
+    width: 148px;
+    height: 50px;
+    position: absolute;
+    top: 4.5px;
+    left: 1408px;
+  }
+.btn.btn-primary{
+  background: #4318FF;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.table{
+  position: absolute;
+  top: 48px;
+}
