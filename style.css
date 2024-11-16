@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+  font-family: "DM Sans", serif;
+}
 body{
     margin: 0;
 }
@@ -53,6 +57,7 @@ body{
         color: #FFFFFF;
         font-weight: 500;
         font-size: 12px;
+        margin: 0px;
     }
 }
 .pages :hover{
@@ -77,6 +82,7 @@ border-color: #0000002B;
 .head{
     display: flex;
     justify-content: space-between;
+    position: absolute;
 }
 .mics{
     position: relative;
@@ -85,6 +91,25 @@ border-color: #0000002B;
     border-radius:30px ;
     width: 346px;
     height: 61.51px;
+    top: 28px;
+    left: 1262px;
+  }
+  .empolye{
+    position: absolute;
+    top: 28px;
+    left:20px;
+
+    p{
+      font-weight: 500;
+      font-size: 14px;
+      color: #707EAE;
+    }
+    h6{
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 42px;
+      color: #2B3674;
+    }
   }
   
   .form-control {
@@ -98,9 +123,9 @@ border-color: #0000002B;
   }
   .search-icon {
     position: absolute;
-    left: 18px;  /* Position the icon inside the input */
-    top: 51%;
-    transform: translateY(-50%);
+    left: 21px;  /* Position the icon inside the input */
+    top: 35%;
+    /* transform: translateY(-50%); */
     font-size: 16px;
     color: #aaa;
   }
@@ -136,6 +161,10 @@ border-color: #0000002B;
         height: 869px;
         border-radius:20px;
         background-color: #FFFFFF;
+  }
+  .table.table-hover{
+     height:743.44px ;
+     width:1590px ;
   }
   .Table.Head{
     width:1530px;
@@ -189,4 +218,67 @@ border-color: #0000002B;
 .table{
   position: absolute;
   top: 48px;
+}
+/* .container{
+  max-width: 3000px;
+} */
+.dp{
+  background-color: #4318FF;
+  color: #FFFFFF;
+  border-radius: 100%;
+  font-weight: 300;
+  font-size: 11px;
+  align-items: center;
+  padding: 2px;
+}
+.colo{
+  background-color: #EBEFF8;
+  border-radius: 10px;
+  padding: 7px;
+
+}
+.dropdown-menu.drop{
+  box-shadow: 0px 1px 4px 0px #1010311F;
+  border: 0.5px solid #D3D8E2;
+  width: 143px;
+  height: 135px;
+}
+.btn.btn{
+  border:none;
+}
+.dropdown-menu.drop{
+  border: 0.5px solid #D3D8E2;
+}
+.fa-regular.fa-eye
+{
+  color:#8B95B7;
+}
+.fa-regular.fa-pen{
+  color:#8B95B7 ;
+}
+.fa-regular.fa-trash{
+  color:#8B95B7 ;
+}
+.Pagination{
+  justify-content: end;
+  margin-top: 60px;
+ 
+}
+.futter{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #0000002B;
+  width: 1615px;
+  margin-top: 5px;
+  p{
+    margin-top: 20px;
+  }
+}
+.last{
+  display: flex;
+  gap: 20px;
+
+  p{
+    margin-top: 20px;
+  }
 }
